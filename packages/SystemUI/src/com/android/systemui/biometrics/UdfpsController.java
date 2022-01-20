@@ -828,7 +828,6 @@ public class UdfpsController implements DozeReceiver, Dumpable {
         udfpsHapticsSimulator.setUdfpsController(this);
         udfpsShell.setUdfpsOverlayController(mUdfpsOverlayController);
 
-        mUdfpsVendorCode = mContext.getResources().getInteger(R.integer.config_udfps_vendor_code);
         mTriggerOnFingerDownForActionDown = mContext.getResources().getBoolean(
                 R.bool.config_udfpsTriggerOnFingerDownForActionDown);
 
