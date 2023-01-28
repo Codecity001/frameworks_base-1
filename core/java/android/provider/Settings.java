@@ -12406,14 +12406,6 @@ public final class Settings {
         public static final String POWER_MENU_ACTIONS = "power_menu_actions";
 
         /**
-         * Enable udfps detection even when screen is off
-         * Default value is 0
-         * @hide
-         */
-        @Readable
-        public static final String SCREEN_OFF_UDFPS_ENABLED = "screen_off_udfps_enabled";
-
-        /**
          * Gesture navbar length mode.
          * Supported modes: 0 for normal length, 1 for medium and 2 for long.
          * Default 0.
